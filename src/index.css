@@ -1,13 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Square+Peg&family=Tapestry&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  background-color: teal;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  width: 100%;
+  padding: 0.3rem 1rem;
+  font-family: "Square Peg", cursive;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.display {
+  font-family: "Tapestry", cursive;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 0.3rem 1rem;
+  border: none;
+  background-color: rgb(3, 43, 43);
+  color: white;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.edit {
+  background-color: green;
+}
+
+.delete {
+  background-color: red;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1fr;
+}
+
+.box {
+  padding: 1rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
 }
